@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.idirin.rteditor2", appContext.getPackageName());
+        assertEquals("com.idirin.rteditor", appContext.getPackageName());
     }
 }
